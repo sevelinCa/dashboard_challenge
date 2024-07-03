@@ -7,8 +7,8 @@ const StatsCard = ({ title, value, change, since, index }) => {
         index === 2 && "bg-red-400/40"
       } ${index === 3 && "bg-blue-400/40"} `}
     >
-      <h3 className="text-[14px] font-[500]">{title}</h3>
-      <p className="text-[20px] font-bold">{value}</p>
+      <h3 className="text-[14px] font-[500] text-gray-700">{title}</h3>
+      <p className="text-[24px] font-bold">{value}</p>
       <div className="flex flex-row gap-[4px] items-center">
         <p className="text-black text-[14px]">{since}</p>
         <p className="text-black text-[12px] px-2 bg-white/60 rounded-[2px]">{change}</p>
