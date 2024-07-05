@@ -2,7 +2,7 @@ import React from 'react'
 
 const OrderListAnalytic = () => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md">
+    <div className="bg-white p-6 rounded-lg shadow-md w-full">
     <div className="flex justify-between items-center mb-4">
       <h2 className="text-xl font-semibold">Orders List</h2>
       <div className="flex space-x-2">

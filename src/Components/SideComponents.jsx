@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 
 const SideComponents = () => {
   return (
-    <div className="px-4  w-[35%] flex flex-col gap-[20px]">
+    <div className="px-4  w-full md:w-[35%] flex flex-col gap-[20px]">
       <OrderListAnalytic />
       <div className=" bg-blue-50 p-4  rounded-lg shadow-md">
         <div className="flex justify-between items-center mb-4">

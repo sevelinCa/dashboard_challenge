@@ -35,7 +35,7 @@ const OrdersList = () => {
   ];
 
   return (
-    <div className="bg-white p-4 rounded-lg shadow-md flex flex-col gap-[4px]">
+    <div className="bg-white py-4 px-1 sm:p-4 rounded-lg shadow-md flex flex-col gap-[4px]">
       <div className="flex flex-row justify-between items-center">
         <h3 className="text-[18px] font-semibold mb-4">Orders List</h3>
         <div className="flex flex-row gap-[10px] items-center">
@@ -60,19 +60,19 @@ const OrdersList = () => {
           <td className="text-[14px] text-gray-600 font-[400] text-start">
             Customer
           </td>
-          <td className="text-[14px] text-gray-600 font-[400] text-start">
+          <td className=" hidden sm:flex text-[14px] text-gray-600 font-[400] text-start">
             Order
           </td>
           <td className="text-[14px] text-gray-600 font-[400] text-start px-2">
             Cout
           </td>
-          <td className="text-[14px] text-gray-600 font-[400] text-start">
+          <td className=" hidden sm:flex text-[14px] text-gray-600 font-[400] text-start">
             Due Date
           </td>
           <td className="text-[14px] text-gray-600 font-[400] text-start">
             Rating
           </td>
-          <td className="text-[14px] text-gray-600 font-[400] text-start">
+          <td className="  text-[14px] text-gray-600 font-[400] text-start">
             Status
           </td>
         </tr>
@@ -95,13 +95,13 @@ const OrdersList = () => {
               {order.customer}
             </div>
           </td>
-          <td>
+          <td className="hidden sm:flex">
             <div className="px-1 rounded-[2px] bg-gray-100 flex items-center justify-center"><span className=" text-[12px] text-violet-500">{order.order}</span></div>
           </td>
           <td className=" px-2">
             <span className="text-[12px]">{order.cost}</span>
           </td>
-          <td className="">
+          <td className=" hidden sm:flex">
             <span className="text-[12px]">{order.dueDate}</span>
           </td>
           <td>

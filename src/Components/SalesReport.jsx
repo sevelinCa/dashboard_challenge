@@ -4,7 +4,7 @@ const SalesReport = () => {
   return (
     <div className="bg-white p-6 rounded-lg shadow-lg w-full mx-auto flex flex-col gap-[10px]">
       <div className="flex justify-between items-center">
-        <div className="flex flex-row items-center gap-[20px]">
+        <div className="flex flex-col sm:flex-row items-center gap-[20px]">
           <h2 className="text-xl font-bold">Sales Report</h2>
           <div className="flex flex-row gap-[10px]">
             <button className="px-3 py-2 text-sm bg-gray-50 shadow-lg rounded-[4px]">

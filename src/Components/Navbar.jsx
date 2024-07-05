@@ -12,8 +12,8 @@ const Navbar = () => {
     setOpenedSubLink(data);
   };
   return (
-    <div className="flex flex-col justify-between gap-[10px] py-4  bg-blue-950 h-screen w-full">
-      <div className="flex flex-col gap-[10px]">
+    <div className="flex flex-col justify-between gap-[10px] py-4  bg-blue-950 h-[86vh] lg:h-screen w-full">
+      <div className="flex flex-col gap-[10px] ">
         <div className="flex flex-row gap-[10px] items-center px-4">
           <MdDashboard color="white" size={25} />
           <span className="text-[18px] font-[700] text-white">Droitdash</span>
